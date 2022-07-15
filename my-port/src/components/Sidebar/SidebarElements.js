@@ -16,7 +16,7 @@ export const SidebarContainer = styled.aside`
   transition: 0.3s ease-in-out;
   opacity:  ${({ isOpen }) => (isOpen ? "100%" : "0")};
   top: ${({ isOpen }) => (isOpen ? "0" : "-100%")};
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Encode Sans Expanded', sans-serif;
 `;
 export const CloseIcon = styled(FaTimes)`
   color: white;

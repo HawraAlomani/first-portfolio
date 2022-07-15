@@ -11,7 +11,6 @@ height: 800px;
 position: relative;
 z-index: 1;
 
-/* Add :before styles */
 `
 export const MainBg = styled.div`
 position: absolute;
@@ -30,7 +29,6 @@ height: 100%;
 -o-object-fit: cover;
 object-fit: cover;
 background: #232a34;
-
 `
 export const ImgMain = styled.img`
 width: 35%;
@@ -40,7 +38,6 @@ margin-left: 8rem;
     width: 45%;
     margin-left: 2rem;
 }
-
 `
 export const MainContent = styled.div`
 font-weight:bold;
