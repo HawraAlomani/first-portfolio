@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const AboutContainer = styled.div`
 color: #fff;
-background: ${({lightBg})=> (lightBg ? '#f9f9f9' : '#010606')};
+background: ${({lightBg})=> (lightBg ? '#F5F5F5' : '#1a181d')};
 
 @media screen  and (    max-width: 768px){
     padding: 100px 0;
@@ -51,13 +51,21 @@ padding-top: 0;
 padding-bottom: 60px;
 `
 export const TopLine = styled.p`
-color: white;
+color: #000000;
+background-color: #F5F5F5;
+padding: 5px 10px;
+width: fit-content;
 font-size: 16px;
 line-height: 16px;
 font-weight: 700;
 letter-spacing: 1.4px;
 text-transform: uppercase;
 margin-bottom: 16px;
+transition: 0.3s;
+&:hover{
+    color: #F5F5F5;
+    background: none;
+}
 `
 
 export const Heading = styled.h1`
@@ -65,17 +73,19 @@ margin-bottom: 24px;
 font-size: 48px;
 line-height: 1.1;
 font-weight: 600;
-color: ${({ lightText })=>(lightText ? '#f7f8fa':'#010606')};
+color: ${({ lightText })=>(lightText ? '#F5F5F5':'#010606')};
 @media screen and (max-width: 480px) {
     font-size: 32px;
 }
 `
 export const Subtitle = styled.p`
+border-left: 5px solid #c3c3c3;
+padding-left: 20px;
 max-width: 440px;
 margin-bottom: 35px;
 font-size: 18px;
 line-height: 24px;
-color: ${({darkText}) => (darkText ? '#010606': "#fff")};
+color: ${({darkText}) => (darkText ? '#010606': "#F5F5F5")};
 `
 export const BtnWrap = styled.div`
 display: flex;
@@ -84,6 +94,16 @@ justify-content: flex-start;
 export const ImgWrap = styled.div`
 max-width: 555px;
 height: 100%;
+img:last-child{
+    display: none;
+}
+&:hover img:last-child{
+    display: inline-block;
+}
+&:hover img:first-child{
+    display: none;
+}
+
 `
 export const Img = styled.img`
 width: 100%;
