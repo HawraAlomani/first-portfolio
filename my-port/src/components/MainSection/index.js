@@ -14,7 +14,7 @@ import Typewriter from "typewriter-effect";
 
 const MainSection = () => {
   return (
-    <MainContainer>
+    <MainContainer id={'main'}>
       <MainBg>
         <ImgBg src={ImageBg} />
       </MainBg>

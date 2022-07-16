@@ -1,0 +1,10 @@
+import styled from "styled-components";
+
+export const ProjectsContainer = styled.div`
+  color: #fff;
+  background: "#F5F5F5";
+  height: 800px;
+  @media screen and (max-width: 768px) {
+    padding: 100px 0;
+  }
+`;

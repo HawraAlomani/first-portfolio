@@ -31,7 +31,7 @@ export const NavbarContainer = styled.div`
   font-family: 'Encode Sans Expanded', sans-serif;
 `;
 
-export const NavLogo = styled(LinkR)`
+export const NavLogo = styled(LinkS)`
   color: white;
   justify-self: flex-start;
   cursor: pointer;

@@ -7,7 +7,7 @@ const Navbar = ({toggle}) => {
    <>
    <Nav>
        <NavbarContainer>
-           <NavLogo to='/'>
+           <NavLogo to='main'>
                <img src={LogoImg} style={{ width: 190, padding: 10, marginTop:20, marginBottom: 10}}/> 
                {/* Change styling later */}
            </NavLogo>
