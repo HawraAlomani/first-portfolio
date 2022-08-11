@@ -1,5 +1,5 @@
 import React from "react";
-import ImageBg from "../images/Main Background.png";
+import ImageBg from "../images/Main Background1.png";
 import ImageMain from "../images/logoPortfolio.png";
 import "../../../src/App.css";
 import {

@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 // import { Button } from "../ButtonElements";
 import img2 from '../images/AboutColored.png';
+import Aos from "aos";
+import "aos/dist/aos.css";
 import {
   AboutContainer,
   AboutWrapper,
@@ -28,6 +30,10 @@ const AboutSection = ({
   img,
   alt,
 }) => {
+  useEffect(()=>{
+    Aos.init({duration: 3000});
+
+  },[])
   return (
     <>
       <AboutContainer lightBg={lightBg} id={id}>
@@ -35,16 +41,16 @@ const AboutSection = ({
           <AboutRow imgStart={imgStart}>
             <Column1>
               <TextWrapper>
-                <TopLine>{topLine}</TopLine>
-                <Heading lightText={lightText}> {headline} </Heading>
-                <Subtitle darkText={darkText}> {description} </Subtitle>
+                <TopLine  data-aos='fade-down' >{topLine}</TopLine>
+                <Heading lightText={lightText}  data-aos='fade-left'> {headline} </Heading>
+                <Subtitle darkText={darkText}  data-aos='fade-right'> {description} </Subtitle>
                 <BtnWrap>
                   {/* <Button to="home">{buttonLabel}</Button> */}
                 </BtnWrap>
               </TextWrapper>
             </Column1>
             <Column2>
-              <ImgWrap>
+              <ImgWrap data-aos='zoom-in'>
                 <Img src={img} alt={alt}/>
                 <Img src={img2} alt={alt}/>
               </ImgWrap>

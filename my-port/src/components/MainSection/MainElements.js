@@ -7,9 +7,9 @@ display: flex;
 justify-content: center;
 align-items: center;
 padding: 0 30px;
-height: 800px;
+height: 950px;
 position: relative;
-z-index: 1;
+z-index: 2;
 
 `
 export const MainBg = styled.div`
@@ -33,7 +33,8 @@ background: #232a34;
 export const ImgMain = styled.img`
 width: 35%;
 float: left;
-margin-left: 8rem;
+margin-left: 9rem;
+
 @media screen and (max-width: 600px){
     width: 45%;
     margin-left: 2rem;
@@ -45,6 +46,7 @@ z-index: 3;
 max-width: 1200px;
 position: absolute;
 padding: 8px 24px;
+padding-bottom: 180px;
 `
 export const TypeContent =styled.div`
 font-family: 'Cutive Mono', monospace;
@@ -54,7 +56,7 @@ font-size: 21px;
     font-size: 16px;
 }
 @media screen and (max-width: 780px){
-padding-top: 80px;
+padding-top: 50px;
 font-size: 16px;
 }
 `
