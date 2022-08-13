@@ -5,6 +5,8 @@ import MainSection from '../components/MainSection';
 import AboutSection from '../components/AboutSection';
 import { homeObjOne } from '../components/AboutSection/Data';
 import RecentWork from '../components/RecentWorkSection';
+import ExperianceSection from '../components/ExperianceSection';
+import ResumeSection from '../components/ResumeSection';
 function Home() {
     const [isOpen, setIsOpen] = useState(false)
     const toggle = () =>{
@@ -19,7 +21,9 @@ function Home() {
     <MainSection />
     <AboutSection {...homeObjOne}/>
     <RecentWork/>
-
+    <ExperianceSection/>
+    <ResumeSection/>
+    
     </>
   )
 }

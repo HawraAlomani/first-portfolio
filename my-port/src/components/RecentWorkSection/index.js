@@ -20,6 +20,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import Exchange from "../images/CardExchange.png";
 import ViewMore from '../images/View More.png';
+// import ExchangeLink from "https://meek-sunflower-a336ad.netlify.app/";
 
 const RecentWork = () => {
   useEffect(() => {
@@ -52,12 +53,12 @@ const RecentWork = () => {
           </TextWrapper> */}
           <CardContainer>
           <GridContainer>
-            <Card1 data-aos="fade-up"> <img src={Exchange}/> </Card1>
-            <Card2 data-aos="fade-up"> <img src={Exchange}/> </Card2>
-            <Card3 data-aos="fade-up"> <img src={Exchange}/></Card3>
-            <Card4 data-aos="fade-up"> <img src={Exchange}/></Card4>
-            <Card5 data-aos="fade-up"> <img src={Exchange}/></Card5>
-            <Card6 data-aos="fade-up"> <img src={ViewMore}/></Card6>
+            <Card1 data-aos="fade-up"> <a href="https://meek-sunflower-a336ad.netlify.app/" target="_blank"> <img src={Exchange}/> </a></Card1>
+            <Card2 data-aos="fade-up"> <a href="https://meek-sunflower-a336ad.netlify.app/" target="_blank"> <img src={Exchange}/> </a></Card2>
+            <Card3 data-aos="fade-up"> <a href="https://meek-sunflower-a336ad.netlify.app/" target="_blank"> <img src={Exchange}/> </a></Card3>
+            <Card4 data-aos="fade-up"> <a href="https://meek-sunflower-a336ad.netlify.app/" target="_blank"> <img src={Exchange}/> </a></Card4>
+            <Card5 data-aos="fade-up"> <a href="https://meek-sunflower-a336ad.netlify.app/" target="_blank"> <img src={Exchange}/> </a></Card5>
+            <Card6 data-aos="fade-up"> <a href="https://github.com/HawraAlomani?tab=repositories" target="_blank"> <img src={ViewMore}/> </a></Card6>
           </GridContainer>
           <Div1 className='box1' data-aos="fade-left"></Div1>
           <Div2 className='box1' data-aos="fade-right"></Div2>

@@ -25,7 +25,8 @@ export const ProjectsWrapper = styled.div`
 `
 
 export  const RecentProjectHeadline = styled.div`
-color:#232029;
+/* color:#232029; */
+color: white;
 font-size: 50px;
 padding-top: 100px;
 -webkit-text-stroke: 1px white;
@@ -201,36 +202,61 @@ export const GridContainer = styled.div`
 `
 export const Card1 = styled.div`
 grid-area: card1;
+transition: transform 0.3s;
+img:hover {
+  transform: scale(1.1);
+}
 img{
   width: 250px;
 }
+
 `
 export const Card2 = styled.div`
 grid-area: card2;
+transition: transform 0.3s;
+img:hover {
+  transform: scale(1.1);
+}
 img{
   width: 250px;
 }
 `
 export const Card3 = styled.div`
 grid-area: card3;
+transition: transform 0.3s;
+img:hover {
+  transform: scale(1.1);
+}
 img{
   width: 250px;
 }
 `
 export const Card4 = styled.div`
 grid-area: card4;
+transition: transform 0.3s;
+img:hover {
+  transform: scale(1.1);
+}
 img{
   width: 250px;
 }
 `
 export const Card5 = styled.div`
 grid-area: card5;
+transition: transform 0.3s;
+img:hover {
+  transform: scale(1.1);
+}
 img{
   width: 250px;
 }
 `
 export const Card6 = styled.div`
 grid-area: card6;
+transition: transform 0.3s;
+img:hover {
+  transform: scale(1.1);
+}
 img{
   width: 250px;
 }
