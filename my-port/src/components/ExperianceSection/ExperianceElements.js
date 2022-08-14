@@ -7,7 +7,7 @@ export const MainContainer = styled.div`
   justify-content: center;
   align-items: center;
   padding: 0 30px;
-  height: 1100px;
+  height: 100%;
   position: relative;
   z-index: 0;
 `;
@@ -15,7 +15,7 @@ export const MainContainer = styled.div`
 
 export const ExperianceWrapper = styled.div`
   z-index: 1;
-  height: 860px;
+  height: 100%;
   width: 100%;
   max-width: 1100px;
   margin-right: auto;
@@ -28,7 +28,7 @@ export const ExperianceWrapper = styled.div`
 export const TextHeadline = styled.div`
   color: white;
   font-size: 50px;
-  padding-top: 180px;
+  padding-top: 100px;
   -webkit-text-stroke: 1px white;
   margin-bottom: 100px;
   img {
@@ -54,7 +54,7 @@ export const Container = styled.div`
     position: absolute;
     content: ' ';
     width: 2px;
-    height: 640px;
+    height: 100%;
     background-image: linear-gradient(
       to bottom,
       rgb(164,100,244),
@@ -138,7 +138,7 @@ export const Date = styled.span`
   position: absolute;
   top: -40px;
   /* left: 20px; */
-  width: 135px;
+  width: 150px;
   height: 35px;
   border-radius: 20px;
   color: #fff;

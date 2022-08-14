@@ -29,44 +29,48 @@ const ExperianceSection = () => {
           <Container className="container">
             <ul>
               <li>
-                <Title>FrontEnd Developer</Title>
+                  <span data-aos="zoom-out">
+                <Title>Full Stack Web Developer</Title>
                 <P>
-                  {" "}
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua{" "}
+                    A Python Trainee at Tuwaiq Academy Where I learned Back-end and Front-end development.
                 </P>
+                <P style={{color: `rgb(197,141,229)`}}> Django | React.js | Netlify | Heroku | REST APIs</P>
                 <Circle className="circle"></Circle>
-                <Date className="date"> January, 2022</Date>
+                <Date className="date">Apr 2022 - Jul 2022</Date>
+                </span>
               </li>
               <li>
-                <Title>FrontEnd Developer</Title>
+              <span data-aos="zoom-out">
+                <Title>EcoCar Team Member</Title>
                 <P>
-                  {" "}
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua{" "}
+                    A member in the development of the HMI subteam. EcoCar is a competition sponsored by the U.S. Department of Energy, General Motors and MathWorks.
                 </P>
+                <P style={{color: `rgb(197,141,229)`}}> Adobe XD | Technical Writing | Prototyping  | UX/UI</P>
                 <Circle className="circle"></Circle>
-                <Date> January, 2022</Date>
+                <Date>Jan 2021 - Dec 2021</Date>
+                </span>
               </li>
               <li>
-                <Title>FrontEnd Developer</Title>
+              <span data-aos="zoom-out">
+                <Title>Electrical Engineering Course Grader</Title>
                 <P>
-                  {" "}
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua{" "}
+                  A part-time job to grade an average of 50 students' homework remotely.
                 </P>
+                <P style={{color: `rgb(197,141,229)`}}>  Calculation | Precision | Time Management | Grading Rules  </P>
                 <Circle className="circle"></Circle>
-                <Date className="date"> January, 2022</Date>
+                <Date className="date">Jan 2021 - May 2021</Date>
+                </span>
               </li>
               <li>
-                <Title>FrontEnd Developer</Title>
+              <span data-aos="zoom-out">
+                <Title>Adobe Photoshop Teacher</Title>
                 <P>
-                  {" "}
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua{" "}
+                An introductory summer course to learn the basics of designing using Photoshop for young aged learners.
                 </P>
+                <P style={{color: `rgb(197,141,229)`}}>  Designing | Concepts Simplifying | Patience | Mentoring  </P>
                 <Circle className="circle"></Circle>
-                <Date> January, 2022</Date>
+                <Date> Jun 2014 – Jul 2014</Date>
+                </span>
               </li>
             </ul>
           </Container>
