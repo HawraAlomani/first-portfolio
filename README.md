@@ -1,5 +1,4 @@
 # first-portfolio
-first react-js portfolio.
 
 Project Name: Hawra's First Portfolio
 
