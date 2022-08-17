@@ -18,7 +18,11 @@ import {
 } from "./RecentWorkElements";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Exchange from "../images/CardExchange.png";
+import Exchange from "../images/exchange-window.png";
+import WordEcho from "../images/theword-echo-window.png";
+import MoodChanger from "../images/Mood-window.png";
+import PastRhythm from "../images/past-rhythm-window.png";
+import ToDoList from "../images/todo-list-window.png";
 import ViewMore from '../images/View More.png';
 // import ExchangeLink from "https://meek-sunflower-a336ad.netlify.app/";
 
@@ -53,11 +57,11 @@ const RecentWork = () => {
           </TextWrapper> */}
           <CardContainer>
           <GridContainer>
-            <Card1 data-aos="fade-up"> <a href="https://meek-sunflower-a336ad.netlify.app/" target="_blank"> <img src={Exchange}/> </a></Card1>
-            <Card2 data-aos="fade-up"> <a href="https://meek-sunflower-a336ad.netlify.app/" target="_blank"> <img src={Exchange}/> </a></Card2>
-            <Card3 data-aos="fade-up"> <a href="https://meek-sunflower-a336ad.netlify.app/" target="_blank"> <img src={Exchange}/> </a></Card3>
-            <Card4 data-aos="fade-up"> <a href="https://meek-sunflower-a336ad.netlify.app/" target="_blank"> <img src={Exchange}/> </a></Card4>
-            <Card5 data-aos="fade-up"> <a href="https://meek-sunflower-a336ad.netlify.app/" target="_blank"> <img src={Exchange}/> </a></Card5>
+            <Card1 data-aos="fade-up"> <a href="https://toys-exchange.netlify.app/" target="_blank"> <img src={Exchange}/> </a></Card1>
+            <Card2 data-aos="fade-up"> <a href="https://62e7bab3051ac7362bee1ca1--willowy-rabanadas-074edd.netlify.app/" target="_blank"> <img src={MoodChanger}/> </a></Card2>
+            <Card3 data-aos="fade-up"> <a href="https://the-word-echo.netlify.app/" target="_blank"> <img src={WordEcho}/> </a></Card3>
+            <Card4 data-aos="fade-up"> <a href="https://past-rhythm.netlify.app/" target="_blank"> <img src={PastRhythm}/> </a></Card4>
+            <Card5 data-aos="fade-up"> <a href="https://todo-list-hw.netlify.app/" target="_blank"> <img src={ToDoList}/> </a></Card5>
             <Card6 data-aos="fade-up"> <a href="https://github.com/HawraAlomani?tab=repositories" target="_blank"> <img src={ViewMore}/> </a></Card6>
           </GridContainer>
           <Div1 className='box1' data-aos="fade-left"></Div1>
