@@ -14,11 +14,12 @@ export const MainContainer = styled.div`
 
 export const ContactWrapper = styled.div`
   z-index: 1;
-  height: 1200px;
+  height: 100%;
   width: 100%;
   max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 200px;
   padding: 0 24px;
   justify-content: center;
   text-align: center;
@@ -49,7 +50,7 @@ export const FormWrapper = styled.div`
 `;
 
 export const ContactImg = styled.img`
-  width: 500px;
+  width: 100%;
 `;
 
 export const GridRow = styled.div`
@@ -68,14 +69,16 @@ export const Column1 = styled.div`
   margin-bottom: 15px;
   padding: 0 15px;
   grid-area: col1;
+
 `;
 export const Column2 = styled.div`
   margin-bottom: 15px;
   padding: 0 15px;
   grid-area: col2;
+
 `;
 
-export const ContactForm = styled.div`
+export const ContactForm = styled.form`
   width: 100%;
   padding: 40px;
   background: #fff;
@@ -106,6 +109,9 @@ export const InputBox = styled.div`
     pointer-events: none;
     transition: 0.5s;
     color: #666;
+    @media screen  and (max-width:412px){
+   font-size: 13px;
+  }
   }
   .max{
     margin: -15px 0;
@@ -163,3 +169,4 @@ export const InputBox = styled.div`
     }
   }
 `;
+
