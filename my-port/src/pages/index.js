@@ -7,6 +7,7 @@ import { homeObjOne } from '../components/AboutSection/Data';
 import RecentWork from '../components/RecentWorkSection';
 import ExperianceSection from '../components/ExperianceSection';
 import ResumeSection from '../components/ResumeSection';
+import MusicComponent from '../components/MusicComponent';
 function Home() {
     const [isOpen, setIsOpen] = useState(false)
     const toggle = () =>{
@@ -18,6 +19,7 @@ function Home() {
 
     <Sidebar isOpen={isOpen} toggle={toggle} />
     <Navbar toggle={toggle} />
+    <MusicComponent style={{}}/>
     <MainSection />
     <AboutSection {...homeObjOne}/>
     <RecentWork/>
