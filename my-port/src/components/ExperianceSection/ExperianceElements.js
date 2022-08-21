@@ -28,12 +28,18 @@ export const ExperianceWrapper = styled.div`
 export const TextHeadline = styled.div`
   color: white;
   font-size: 50px;
+  @media screen and (max-width: 600px){
+  font-size: 40px;
+}
   padding-top: 100px;
   -webkit-text-stroke: 1px white;
   margin-bottom: 100px;
   img {
     width: 200px;
     margin-bottom: -80px;
+    @media screen and (max-width: 650px){
+      width: 40%;
+}
   }
 `;
 export const Main = styled.div`

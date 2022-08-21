@@ -8,6 +8,7 @@ import RecentWork from '../components/RecentWorkSection';
 import ExperianceSection from '../components/ExperianceSection';
 import ResumeSection from '../components/ResumeSection';
 import MusicComponent from '../components/MusicComponent';
+import Footer from '../components/Footer';
 function Home() {
     const [isOpen, setIsOpen] = useState(false)
     const toggle = () =>{
@@ -25,6 +26,7 @@ function Home() {
     <RecentWork/>
     <ExperianceSection/>
     <ResumeSection/>
+    <Footer/>
     </>
   )
 }

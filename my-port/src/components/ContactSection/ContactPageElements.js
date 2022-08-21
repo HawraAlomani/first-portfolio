@@ -14,15 +14,20 @@ export const MainContainer = styled.div`
 
 export const ContactWrapper = styled.div`
   z-index: 1;
-  height: 100%;
   width: 100%;
+  height: 100%;
   max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 200px;
+  margin-bottom: 140px;
   padding: 0 24px;
   justify-content: center;
   text-align: center;
+  #contactHd{
+    margin-bottom: -150px;
+    width: 330px;
+    margin-left:-40px;
+  }
 `;
 export const Text = styled.h1`
   font-size: 34px;

@@ -17,7 +17,8 @@ import Contactimage from "../images/ContactImage-2.png";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-
+import Footer from '../Footer';
+import ContactHeadline from '../images/Contact.png';
 const MIN_TEXTAREA_HEIGHT = 32;
 
 const ContactPage = () => {
@@ -79,6 +80,7 @@ const ContactPage = () => {
     <div>
       <MainContainer>
         <ContactWrapper>
+        <img src={ContactHeadline} id='contactHd'/>
           <a href="/">
             {" "}
             <ImgIcon src={HomeIcon} />{" "}
@@ -139,6 +141,7 @@ const ContactPage = () => {
           </FormWrapper>
         </ContactWrapper>
       </MainContainer>
+      <Footer/>
     </div>
   );
 };

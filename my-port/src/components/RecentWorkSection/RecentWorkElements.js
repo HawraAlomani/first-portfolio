@@ -4,7 +4,6 @@ export const ProjectsContainer = styled.div`
   color: white;
   background: ${({ lightBg }) => (lightBg ? "#F5F5F5" : "#232029")};
   height: 850px;
-
   @media screen and (max-width: 768px) {
     padding: 100px 0;
   }
@@ -28,6 +27,9 @@ export  const RecentProjectHeadline = styled.div`
 /* color:#232029; */
 color: white;
 font-size: 50px;
+@media screen and (max-width: 600px){
+  font-size: 40px;
+}
 padding-top: 100px;
 -webkit-text-stroke: 1px white;
 `
@@ -119,6 +121,14 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3)
 border-radius: 50px;
 width: 1000px;
 height: 550px;
+@media screen and (max-width: 1020px) {
+  width: 100%;
+  height: 450px;
+}
+@media screen and (max-width: 600px) {
+  width: 100%;
+  height: 350px;
+}
 
 `
 export const Div1 = styled.div`
@@ -199,6 +209,12 @@ export const GridContainer = styled.div`
     ". card1 card2 card3 ."
     ". card4 card5 card6 ."
     ". . . . ."; 
+    @media screen and (max-width: 1020px){
+      margin-top:-130px;
+}
+@media screen and (max-width: 600px){
+      margin-top:-50px;
+}
 `
 export const Card1 = styled.div`
 grid-area: card1;
@@ -208,6 +224,13 @@ img:hover {
 }
 img{
   width: 250px;
+  @media screen and (max-width: 1020px){
+  width: 200px;
+}
+@media screen and (max-width: 600px){
+  width: 120px;
+}
+
 }
 
 `
@@ -219,6 +242,12 @@ img:hover {
 }
 img{
   width: 250px;
+  @media screen and (max-width: 1020px){
+  width: 200px;
+}
+@media screen and (max-width: 600px){
+  width: 120px;
+}
 }
 `
 export const Card3 = styled.div`
@@ -229,6 +258,12 @@ img:hover {
 }
 img{
   width: 250px;
+  @media screen and (max-width: 1020px){
+  width: 200px;
+}
+@media screen and (max-width: 600px){
+  width: 120px;
+}
 }
 `
 export const Card4 = styled.div`
@@ -239,6 +274,12 @@ img:hover {
 }
 img{
   width: 250px;
+  @media screen and (max-width: 1020px){
+  width: 200px;
+}
+@media screen and (max-width: 600px){
+  width: 120px;
+}
 }
 `
 export const Card5 = styled.div`
@@ -249,6 +290,12 @@ img:hover {
 }
 img{
   width: 250px;
+  @media screen and (max-width: 1020px){
+  width: 200px;
+}
+@media screen and (max-width: 600px){
+  width: 120px;
+}
 }
 `
 export const Card6 = styled.div`
@@ -259,5 +306,11 @@ img:hover {
 }
 img{
   width: 250px;
+  @media screen and (max-width: 1020px){
+  width: 200px;
+}
+@media screen and (max-width: 600px){
+  width: 120px;
+}
 }
 `

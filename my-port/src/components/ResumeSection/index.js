@@ -25,7 +25,7 @@ const ResumeSection = () => {
         <MainBg>
           <UpperContainer>
           <Container>
-        <Spline scene="https://prod.spline.design/hMIvjzMDkcL5kGYT/scene.splinecode" />
+        <Spline  className='spline'scene="https://prod.spline.design/hMIvjzMDkcL5kGYT/scene.splinecode" />
         <DownloadBtn onClick={saveFile}>
            My Resume
            </DownloadBtn>

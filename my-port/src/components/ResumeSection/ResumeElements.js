@@ -34,9 +34,11 @@ margin-top: 100px;
   top: 50%;
   left: 50%; 
   transform: translate(-50%, -50%);
+  .spline{
   @media screen and (max-width: 730px) {
-    
+    margin-left:-6.9em;
   }
+}
 `
 
 export const DownloadBtn = styled.button`
@@ -68,4 +70,5 @@ text-decoration: none;
     background: #fff;
     color: #010606;
 }
+
 `;
