@@ -1,7 +1,7 @@
 import React from 'react';
 import {MainContainer, MainBg,UpperContainer, Container, DownloadBtn } from './ResumeElements';
 import Spline from '@splinetool/react-spline';
-import Pdf from '../pdf/HawraAlomani-resume-updated.pdf';
+import Pdf from '../pdf/HawraAlomani-resume-new.pdf';
 
 
 const ResumeSection = () => {
