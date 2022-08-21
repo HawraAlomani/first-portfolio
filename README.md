@@ -8,4 +8,4 @@ Status: in progress.
 
 Tools: React, HTML, CSS, JS, Spline, Photoshop, Netlify.
 
-Visit the site: 
+Visit the site: https://hawra.netlify.app/
