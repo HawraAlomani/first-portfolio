@@ -33,7 +33,7 @@ background: #232a34;
 export const ImgMain = styled.img`
 width: 35%;
 float: left;
-margin-left: 9rem;
+margin-left: 8rem;
 
 @media screen and (max-width: 600px){
     width: 45%;
